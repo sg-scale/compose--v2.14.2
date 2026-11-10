@@ -1,6 +1,6 @@
 module github.com/docker/compose/v2
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6
@@ -11,7 +11,7 @@ require (
 	github.com/distribution/distribution/v3 v3.0.0-20221201083218-92d136e113cf
 	github.com/docker/buildx v0.9.1 // when updating, also update the replace rules accordingly
 	github.com/docker/cli v20.10.20+incompatible // replaced; see replace rule for actual version
-	github.com/docker/cli-docs-tool v0.5.0
+	github.com/docker/cli-docs-tool v0.11.0
 	github.com/docker/docker v20.10.20+incompatible // replaced; see replace rule for actual version
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-units v0.5.0
@@ -27,9 +27,9 @@ require (
 	github.com/opencontainers/image-spec v1.1.0-rc2
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.0
-	github.com/spf13/cobra v1.6.1
-	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.1
+	github.com/spf13/cobra v1.10.2
+	github.com/spf13/pflag v1.0.10
+	github.com/stretchr/testify v1.9.0
 	github.com/theupdateframework/notary v0.7.0
 	go.opentelemetry.io/otel v1.11.2
 	golang.org/x/sync v0.1.0
@@ -69,7 +69,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
-	github.com/inconshreveable/mousetrap v1.0.1 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/klauspost/compress v1.15.9 // indirect
@@ -142,6 +142,7 @@ require github.com/cucumber/godog v0.0.0-00010101000000-000000000000
 require (
 	github.com/bugsnag/bugsnag-go v1.5.0 // indirect
 	github.com/cloudflare/cfssl v1.4.1 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/cucumber/gherkin-go/v19 v19.0.3 // indirect
 	github.com/cucumber/messages-go/v16 v16.0.1 // indirect
 	github.com/gofrs/uuid v4.2.0+incompatible // indirect
@@ -149,7 +150,9 @@ require (
 	github.com/hashicorp/go-memdb v1.3.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/jinzhu/gorm v1.9.11 // indirect
+	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/spf13/viper v1.4.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.4 // indirect
 )
 
 replace (
